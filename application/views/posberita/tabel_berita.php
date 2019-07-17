@@ -46,8 +46,8 @@
                             <td><?php echo $s['keyword']; ?></td>
                             <td><?php echo date('d F Y', $s['terbit']); ?></td>
                             <td>
-                                <a href="" class="badge badge-success">edit</a>
-                                <a href="" class="badge badge-danger">delete</a>
+                                <a href="<?php echo base_url(); ?>pos/edit/<?php echo $s['id']; ?>" class="badge badge-success">E</a>
+                                <a href="" class="badge badge-danger">D</a>
                             </td>
                         </tr>
                         <?php $i++; ?>
